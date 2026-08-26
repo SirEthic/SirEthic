@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=500&lines=Vidhan+Kumar+Singh;Game+Developer+%7C+Physics+Nerd;Godot+%7C+C%2B%2B+%7C+OpenGL" alt="typing svg" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Vidhan+Kumar+Singh;Game+Developer+%7C+Physics+Nerd;Godot+%7C+C%2B%2B+%7C+OpenGL" alt="typing svg" />
 </p>
 
 ### Hi there! 👋
