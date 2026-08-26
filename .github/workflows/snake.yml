@@ -25,7 +25,10 @@ jobs:
 
       - name: Deploy to output branch
         run: |
-          cd dist
+          rm -rf dist/.git
+          mkdir output-dir
+          cp dist/github-contribution-grid-snake-dark.svg output-dir/
+          cd output-dir
           git init
           git checkout -b output
           git add .
