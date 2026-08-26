@@ -12,7 +12,9 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d1" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d1)" stroke-width="1"/></svg></p>
 
-### 🛠️ Tech Stack
+<p align="left">
+<svg viewBox="0 0 180 32" width="180" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Tech Stack</text><line x1="0" y1="28" x2="110" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="110" stroke-dashoffset="110"><animate attributeName="stroke-dashoffset" from="110" to="0" dur="0.8s" fill="freeze"/></line></svg>
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=gdscript&perline=7" title="GDScript" width="50" />
@@ -29,7 +31,9 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d2" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d2)" stroke-width="1"/></svg></p>
 
-### 🔥 Featured Projects
+<p align="left">
+<svg viewBox="0 0 260 32" width="260" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Featured Projects</text><line x1="0" y1="28" x2="160" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="160" stroke-dashoffset="160"><animate attributeName="stroke-dashoffset" from="160" to="0" dur="0.8s" fill="freeze"/></line></svg>
+</p>
 
 <table>
 <tr>
@@ -72,7 +76,9 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d3" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d3)" stroke-width="1"/></svg></p>
 
-### 📊 Stats
+<p align="left">
+<svg viewBox="0 0 120 32" width="120" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Stats</text><line x1="0" y1="28" x2="50" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="50" stroke-dashoffset="50"><animate attributeName="stroke-dashoffset" from="50" to="0" dur="0.8s" fill="freeze"/></line></svg>
+</p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirEthic&theme=radical&background=0d1117&hide_border=true&ring=00D4FF&fire=00D4FF&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00D4FF&sideLabels=c9d1d9" alt="streak stats" />
@@ -80,7 +86,9 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d4" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d4)" stroke-width="1"/></svg></p>
 
-### 🐍 Contribution Snake
+<p align="left">
+<svg viewBox="0 0 260 32" width="260" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Contribution Snake</text><line x1="0" y1="28" x2="160" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="160" stroke-dashoffset="160"><animate attributeName="stroke-dashoffset" from="160" to="0" dur="0.8s" fill="freeze"/></line></svg>
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="600" />
@@ -88,7 +96,9 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d5" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d5)" stroke-width="1"/></svg></p>
 
-### 🌐 Connect
+<p align="left">
+<svg viewBox="0 0 160 32" width="160" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Connect</text><line x1="0" y1="28" x2="80" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="80" stroke-dashoffset="80"><animate attributeName="stroke-dashoffset" from="80" to="0" dur="0.8s" fill="freeze"/></line></svg>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vidhan-kumar-singh-ethic/">
