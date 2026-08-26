@@ -34,7 +34,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=gdscript,godot,cpp,c,dart,flutter,js,python,linux,git&perline=5" />
+    <img src="https://skillicons.dev/icons?i=gdscript,godot,cpp,c,dart,flutter,js,python,linux,git&theme=dark" />
   </a>
 </p>
 
