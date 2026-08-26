@@ -13,7 +13,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d1" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d1)" stroke-width="1"/></svg></p>
 
 <p align="left">
-<svg viewBox="0 0 180 32" width="180" height="32" xmlns="http://www.w3.org/2000/svg"><defs><style>@keyframes draw{from{stroke-dashoffset:110}to{stroke-dashoffset:0}}.u1{animation:draw .8s ease forwards}</style></defs><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Tech Stack</text><line x1="0" y1="28" x2="110" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="110" stroke-dashoffset="110" class="u1"/></svg>
+<svg viewBox="0 0 180 32" width="180" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Tech Stack</text><line x1="0" y1="28" x2="110" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d2" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d2)" stroke-width="1"/></svg></p>
 
 <p align="left">
-<svg viewBox="0 0 260 32" width="260" height="32" xmlns="http://www.w3.org/2000/svg"><defs><style>@keyframes draw{from{stroke-dashoffset:160}to{stroke-dashoffset:0}}.u2{animation:draw .8s ease forwards}</style></defs><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Featured Projects</text><line x1="0" y1="28" x2="160" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="160" stroke-dashoffset="160" class="u2"/></svg>
+<svg viewBox="0 0 260 32" width="260" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Featured Projects</text><line x1="0" y1="28" x2="160" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
 <table>
@@ -77,7 +77,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d3" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d3)" stroke-width="1"/></svg></p>
 
 <p align="left">
-<svg viewBox="0 0 120 32" width="120" height="32" xmlns="http://www.w3.org/2000/svg"><defs><style>@keyframes draw{from{stroke-dashoffset:50}to{stroke-dashoffset:0}}.u3{animation:draw .8s ease forwards}</style></defs><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Stats</text><line x1="0" y1="28" x2="50" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="50" stroke-dashoffset="50" class="u3"/></svg>
+<svg viewBox="0 0 120 32" width="120" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Stats</text><line x1="0" y1="28" x2="50" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
 <p align="center">
@@ -87,7 +87,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d4" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d4)" stroke-width="1"/></svg></p>
 
 <p align="left">
-<svg viewBox="0 0 260 32" width="260" height="32" xmlns="http://www.w3.org/2000/svg"><defs><style>@keyframes draw{from{stroke-dashoffset:160}to{stroke-dashoffset:0}}.u4{animation:draw .8s ease forwards}</style></defs><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Contribution Snake</text><line x1="0" y1="28" x2="160" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="160" stroke-dashoffset="160" class="u4"/></svg>
+<svg viewBox="0 0 260 32" width="260" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Contribution Snake</text><line x1="0" y1="28" x2="160" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
 <p align="center">
@@ -97,7 +97,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d5" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d5)" stroke-width="1"/></svg></p>
 
 <p align="left">
-<svg viewBox="0 0 160 32" width="160" height="32" xmlns="http://www.w3.org/2000/svg"><defs><style>@keyframes draw{from{stroke-dashoffset:80}to{stroke-dashoffset:0}}.u5{animation:draw .8s ease forwards}</style></defs><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Connect</text><line x1="0" y1="28" x2="80" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="80" stroke-dashoffset="80" class="u5"/></svg>
+<svg viewBox="0 0 160 32" width="160" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Connect</text><line x1="0" y1="28" x2="80" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
 <p align="center">
