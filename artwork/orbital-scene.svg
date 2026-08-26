@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="star" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0088FF" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      @keyframes orbit1 {
+        from { transform: rotate(0deg) translateX(35px) rotate(0deg); }
+        to { transform: rotate(360deg) translateX(35px) rotate(-360deg); }
+      }
+      @keyframes orbit2 {
+        from { transform: rotate(120deg) translateX(55px) rotate(-120deg); }
+        to { transform: rotate(480deg) translateX(55px) rotate(-480deg); }
+      }
+      @keyframes orbit3 {
+        from { transform: rotate(240deg) translateX(75px) rotate(-240deg); }
+        to { transform: rotate(600deg) translateX(75px) rotate(-600deg); }
+      }
+      @keyframes star-pulse {
+        0%, 100% { opacity: 0.8; r: 12; }
+        50% { opacity: 1; r: 14; }
+      }
+      .planet1 { animation: orbit1 4s linear infinite; }
+      .planet2 { animation: orbit2 7s linear infinite; }
+      .planet3 { animation: orbit3 11s linear infinite; }
+      .star-glow { animation: star-pulse 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="200" height="200" fill="#0d1117" rx="12"/>
+
+  <!-- Stars (background) -->
+  <circle cx="25" cy="30" r="0.8" fill="#c9d1d9" opacity="0.4"/>
+  <circle cx="170" cy="45" r="0.6" fill="#c9d1d9" opacity="0.3"/>
+  <circle cx="40" cy="160" r="0.7" fill="#c9d1d9" opacity="0.35"/>
+  <circle cx="160" cy="170" r="0.5" fill="#c9d1d9" opacity="0.25"/>
+  <circle cx="80" cy="25" r="0.4" fill="#c9d1d9" opacity="0.3"/>
+  <circle cx="150" cy="100" r="0.6" fill="#c9d1d9" opacity="0.2"/>
+  <circle cx="30" cy="100" r="0.5" fill="#c9d1d9" opacity="0.3"/>
+
+  <!-- Orbital paths -->
+  <circle cx="100" cy="100" r="35" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="100" cy="100" r="55" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Central star -->
+  <circle cx="100" cy="100" r="12" fill="url(#star)" class="star-glow"/>
+  <circle cx="100" cy="100" r="8" fill="#00D4FF" opacity="0.6"/>
+
+  <!-- Planet 1 (small, fast - like Mercury) -->
+  <g transform-origin="100 100" class="planet1">
+    <circle cx="100" cy="100" r="3" fill="#00D4FF"/>
+  </g>
+
+  <!-- Planet 2 (medium, moderate - like Earth) -->
+  <g transform-origin="100 100" class="planet2">
+    <circle cx="100" cy="100" r="5" fill="#0088FF"/>
+    <circle cx="100" cy="100" r="7" fill="none" stroke="#0088FF" stroke-width="0.5" opacity="0.3"/>
+  </g>
+
+  <!-- Planet 3 (large, slow - like Jupiter) -->
+  <g transform-origin="100 100" class="planet3">
+    <circle cx="100" cy="100" r="7" fill="#c9d1d9" opacity="0.8"/>
+    <circle cx="100" cy="100" r="4" fill="#00D4FF" opacity="0.3"/>
+  </g>
+
+  <!-- Physics equation -->
+  <text x="100" y="190" text-anchor="middle" font-family="'Fira Code',monospace" font-size="8" fill="#00D4FF" opacity="0.3">F = GMm/r²</text>
+</svg>

@@ -17,6 +17,18 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 <br>
 
 <p align="center">
+<svg viewBox="0 0 140 32" width="140" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">My World</text><line x1="0" y1="28" x2="85" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/main/artwork/game-controller.svg" alt="Game Controller" width="160" />
+  <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/main/artwork/neon-guitar.svg" alt="Neon Guitar" width="160" />
+  <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/main/artwork/orbital-scene.svg" alt="Orbital Physics" width="160" />
+</p>
+
+<br>
+
+<p align="center">
 <svg viewBox="0 0 180 32" width="180" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Tech Stack</text><line x1="0" y1="28" x2="110" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <style>
+      @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+      .led { animation: blink 1.5s ease-in-out infinite; }
+      @keyframes dpad-glow { 0%,100% { filter: drop-shadow(0 0 2px #00D4FF); } 50% { filter: drop-shadow(0 0 6px #00D4FF); } }
+      .glow { animation: dpad-glow 2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="200" height="200" fill="#0d1117" rx="12"/>
+
+  <!-- Controller body -->
+  <rect x="30" y="60" width="140" height="80" rx="16" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+
+  <!-- D-pad -->
+  <g class="glow">
+    <rect x="52" y="85" width="12" height="30" rx="2" fill="#c9d1d9"/>
+    <rect x="42" y="95" width="32" height="12" rx="2" fill="#c9d1d9"/>
+  </g>
+
+  <!-- A button -->
+  <circle cx="138" cy="90" r="8" fill="#00D4FF" opacity="0.9"/>
+  <text x="138" y="94" text-anchor="middle" font-family="'Fira Code',monospace" font-size="8" font-weight="bold" fill="#0d1117">A</text>
+
+  <!-- B button -->
+  <circle cx="120" cy="105" r="8" fill="#0088FF" opacity="0.9"/>
+  <text x="120" y="109" text-anchor="middle" font-family="'Fira Code',monospace" font-size="8" font-weight="bold" fill="#0d1117">B</text>
+
+  <!-- Start/Select -->
+  <rect x="85" y="108" width="12" height="5" rx="2" fill="#30363d"/>
+  <rect x="103" y="108" width="12" height="5" rx="2" fill="#30363d"/>
+
+  <!-- LED -->
+  <circle cx="100" cy="70" r="3" fill="#00D4FF" class="led"/>
+
+  <!-- Decorative lines -->
+  <line x1="35" y1="145" x2="55" y2="145" stroke="#30363d" stroke-width="1"/>
+  <line x1="145" y1="145" x2="165" y2="145" stroke="#30363d" stroke-width="1"/>
+</svg>
