@@ -21,7 +21,6 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
   <img src="https://skillicons.dev/icons?i=flutter&perline=7" title="Flutter" width="50" />
   <img src="https://skillicons.dev/icons?i=js&perline=7" title="JavaScript" width="50" />
   <img src="https://skillicons.dev/icons?i=python&perline=7" title="Python" width="50" />
-  <img src="https://skillicons.dev/icons?i=opengl&perline=7" title="OpenGL" width="50" />
   <img src="https://skillicons.dev/icons?i=linux&perline=7" title="Linux" width="50" />
   <img src="https://skillicons.dev/icons?i=git&perline=7" title="Git" width="50" />
 </p>
