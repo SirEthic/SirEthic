@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Vidhan+Kumar+Singh;Game+Developer+%7C+Physics+Nerd;Building+Worlds+in+Code" alt="typing svg" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=120&lines=Vidhan+Kumar+Singh;Game+Developer+%7C+Physics+Nerd;Godot+%7C+C%2B%2B+%7C+OpenGL" alt="typing svg" />
 </p>
-
-<br>
 
 ### Hi there! 👋
 
@@ -11,8 +9,6 @@ I'm **Vidhan** — I build games, physics engines, and things that move.
 I spend most of my time inside **Godot** writing GDScript, or in **C++** making OpenGL do things it was never meant to. Currently learning **3D modeling** so I can finally make my own assets instead of using placeholders.
 
 When I'm not coding, I'm probably playing **guitar** or breaking game engines in interesting ways.
-
-<br>
 
 ### 🛠️ Tech Stack
 
@@ -29,8 +25,6 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
   <img src="https://skillicons.dev/icons?i=linux&perline=7" title="Linux" width="50" />
   <img src="https://skillicons.dev/icons?i=git&perline=7" title="Git" width="50" />
 </p>
-
-<br>
 
 ### 🔥 Featured Projects
 
@@ -73,8 +67,6 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 </tr>
 </table>
 
-<br>
-
 ### 📊 GitHub Stats
 
 <p align="center">
@@ -87,15 +79,11 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirEthic&theme=radical&background=0d1117&hide_border=true&ring=00D4FF&fire=00D4FF&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00D4FF&sideLabels=c9d1d9" alt="streak stats" />
 </p>
 
-<br>
-
 ### 🐍 Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="600" />
 </p>
-
-<br>
 
 ### 🌐 Connect
 
