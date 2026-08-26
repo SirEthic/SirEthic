@@ -1,0 +1,23 @@
+schemaVersion: 1
+
+profile:
+  githubUser: "SirEthic"
+
+theme:
+  id: "middle-earth"
+
+journey:
+  id: "road-to-mordor-2026"
+  startDate: "2024-03-19"
+  targetXP: 50000
+  xpMultiplier: 1.0
+
+display:
+  layout: "compact"
+  showStats: true
+  showTitle: true
+  showAchievements: true
+
+output:
+  svgPath: "output/journey.svg"
+  dataDirectory: "data"

@@ -66,10 +66,10 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 </tr>
 </table>
 
-### 📊 GitHub Stats
+### ⚔️ Journey Card
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirEthic&theme=radical&background=0d1117&hide_border=true&ring=00D4FF&fire=00D4FF&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00D4FF&sideLabels=c9d1d9" alt="streak stats" />
+  <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/main/output/journey.svg" alt="RPG Journey" />
 </p>
 
 ### 🐍 Contribution Snake
