@@ -129,7 +129,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 </p>
 
 <p align="center">
-  <img src="https://lastfm-recently-played.jeffreyca.workers.dev/svg?user=SirEthic&logo=0&bg_color=0d1117&text_color=c9d1d9&artist_color=0088FF&accent_color=00D4FF&count=1" alt="Last.fm Recently Played" />
+  <img src="https://lastfm-recently-played.jeffreyca.workers.dev/svg?user=SirEthic&amp;logo=0&amp;bg_color=0d1117&amp;text_color=c9d1d9&amp;artist_color=0088FF&amp;accent_color=00D4FF&amp;count=1" alt="Last.fm Recently Played" />
 </p>
 
 <br>
