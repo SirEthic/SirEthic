@@ -2,79 +2,134 @@
   <defs>
     <style>
       @keyframes neon-pulse {
-        0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 4px #00D4FF); }
-        50% { opacity: 1; filter: drop-shadow(0 0 12px #00D4FF) drop-shadow(0 0 20px #0088FF); }
+        0%, 100% { filter: drop-shadow(0 0 3px #00D4FF) drop-shadow(0 0 6px rgba(0,212,255,0.3)); }
+        50% { filter: drop-shadow(0 0 6px #00D4FF) drop-shadow(0 0 12px rgba(0,212,255,0.5)) drop-shadow(0 0 20px rgba(0,136,255,0.2)); }
       }
-      .neon { animation: neon-pulse 2s ease-in-out infinite; }
-      @keyframes string-vibrate {
-        0%, 100% { transform: translateX(0); }
-        25% { transform: translateX(0.5px); }
-        75% { transform: translateX(-0.5px); }
+      @keyframes string-glow {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
       }
-      .vibrate { animation: string-vibrate 0.15s linear infinite; }
+      .neon { animation: neon-pulse 2.5s ease-in-out infinite; }
+      .string-glow { animation: string-glow 3s ease-in-out infinite; }
     </style>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="glow-subtle">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="neck-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0088FF" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0088FF" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="body-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
   </defs>
 
   <!-- Background -->
   <rect width="200" height="200" fill="#0d1117" rx="12"/>
 
-  <!-- Guitar body (Les Paul style) -->
-  <g class="neon" filter="url(#glow)">
-    <!-- Neck -->
-    <rect x="96" y="20" width="8" height="80" rx="2" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
-    
-    <!-- Frets -->
-    <line x1="96" y1="35" x2="104" y2="35" stroke="#00D4FF" stroke-width="0.5" opacity="0.6"/>
-    <line x1="96" y1="50" x2="104" y2="50" stroke="#00D4FF" stroke-width="0.5" opacity="0.6"/>
-    <line x1="96" y1="65" x2="104" y2="65" stroke="#00D4FF" stroke-width="0.5" opacity="0.6"/>
-    <line x1="96" y1="80" x2="104" y2="80" stroke="#00D4FF" stroke-width="0.5" opacity="0.6"/>
+  <!-- Guitar outline group with neon pulse -->
+  <g class="neon">
 
     <!-- Headstock -->
-    <path d="M92,20 L92,10 Q92,5 97,5 L103,5 Q108,5 108,10 L108,20" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
+    <path d="M91,18 L91,6 Q91,1 96,1 L104,1 Q109,1 109,6 L109,18" 
+          fill="none" stroke="#00D4FF" stroke-width="1.8" stroke-linecap="round"/>
     
-    <!-- Tuning pegs -->
-    <circle cx="90" cy="12" r="2" fill="#00D4FF" opacity="0.7"/>
-    <circle cx="90" cy="18" r="2" fill="#00D4FF" opacity="0.7"/>
-    <circle cx="110" cy="12" r="2" fill="#00D4FF" opacity="0.7"/>
-    <circle cx="110" cy="18" r="2" fill="#00D4FF" opacity="0.7"/>
-
-    <!-- Body (upper bout) -->
-    <ellipse cx="100" cy="110" rx="35" ry="25" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
+    <!-- Tuning pegs - left -->
+    <circle cx="88" cy="6" r="2.5" fill="none" stroke="#00D4FF" stroke-width="1"/>
+    <circle cx="88" cy="12" r="2.5" fill="none" stroke="#00D4FF" stroke-width="1"/>
+    <circle cx="88" cy="18" r="2.5" fill="none" stroke="#00D4FF" stroke-width="1"/>
+    <!-- Tuning pegs - right -->
+    <circle cx="112" cy="6" r="2.5" fill="none" stroke="#00D4FF" stroke-width="1"/>
+    <circle cx="112" cy="12" r="2.5" fill="none" stroke="#00D4FF" stroke-width="1"/>
+    <circle cx="112" cy="18" r="2.5" fill="none" stroke="#00D4FF" stroke-width="1"/>
     
-    <!-- Body (lower bout) -->
-    <ellipse cx="100" cy="145" rx="40" ry="30" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
+    <!-- Nut -->
+    <line x1="92" y1="20" x2="108" y2="20" stroke="#c9d1d9" stroke-width="1.5"/>
 
-    <!-- Waist -->
-    <path d="M65,115 Q65,130 60,140" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
-    <path d="M135,115 Q135,130 140,140" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.5"/>
+    <!-- Neck -->
+    <rect x="94" y="20" width="12" height="70" rx="1" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
+    
+    <!-- Fret markers -->
+    <circle cx="100" cy="32" r="1.2" fill="#00D4FF" opacity="0.5"/>
+    <circle cx="100" cy="48" r="1.2" fill="#00D4FF" opacity="0.5"/>
+    <circle cx="100" cy="64" r="1.2" fill="#00D4FF" opacity="0.5"/>
+    <circle cx="100" cy="78" r="1.2" fill="#00D4FF" opacity="0.5"/>
+    
+    <!-- Frets -->
+    <line x1="94" y1="36" x2="106" y2="36" stroke="#00D4FF" stroke-width="0.4" opacity="0.4"/>
+    <line x1="94" y1="52" x2="106" y2="52" stroke="#00D4FF" stroke-width="0.4" opacity="0.4"/>
+    <line x1="94" y1="66" x2="106" y2="66" stroke="#00D4FF" stroke-width="0.4" opacity="0.4"/>
 
-    <!-- Sound hole -->
-    <circle cx="100" cy="125" r="10" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.6"/>
+    <!-- Body - single cutaway Les Paul shape -->
+    <path d="M94,90 
+             Q94,88 92,86 Q80,80 68,85 
+             Q52,92 48,108 
+             Q44,125 50,140 
+             Q56,155 70,162 
+             Q85,168 100,168 
+             Q115,168 130,162 
+             Q144,155 150,140 
+             Q156,125 152,108 
+             Q148,92 132,85 
+             Q120,80 108,86 
+             Q106,88 106,90 Z" 
+          fill="none" stroke="#00D4FF" stroke-width="1.8"/>
 
-    <!-- Bridge -->
-    <rect x="90" y="155" width="20" height="3" rx="1" fill="#00D4FF" opacity="0.8"/>
+    <!-- Cutaway (right side) -->
+    <path d="M108,86 Q115,95 115,108 Q115,118 112,125" 
+          fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.6"/>
+
+    <!-- Pickguard -->
+    <path d="M75,100 Q68,108 66,120 Q65,130 70,138 Q75,142 82,140" 
+          fill="none" stroke="#00D4FF" stroke-width="0.6" opacity="0.3"/>
 
     <!-- Pickups -->
-    <rect x="88" y="135" width="24" height="4" rx="1" fill="#00D4FF" opacity="0.5"/>
-    <rect x="88" y="145" width="24" height="4" rx="1" fill="#00D4FF" opacity="0.5"/>
+    <rect x="78" y="115" width="44" height="5" rx="2" fill="none" stroke="#00D4FF" stroke-width="0.8" opacity="0.6"/>
+    <rect x="78" y="130" width="44" height="5" rx="2" fill="none" stroke="#00D4FF" stroke-width="0.8" opacity="0.6"/>
+    <!-- Pole pieces -->
+    <g opacity="0.5">
+      <circle cx="84" cy="117.5" r="0.8" fill="#00D4FF"/><circle cx="90" cy="117.5" r="0.8" fill="#00D4FF"/>
+      <circle cx="96" cy="117.5" r="0.8" fill="#00D4FF"/><circle cx="102" cy="117.5" r="0.8" fill="#00D4FF"/>
+      <circle cx="108" cy="117.5" r="0.8" fill="#00D4FF"/><circle cx="114" cy="117.5" r="0.8" fill="#00D4FF"/>
+      <circle cx="84" cy="132.5" r="0.8" fill="#00D4FF"/><circle cx="90" cy="132.5" r="0.8" fill="#00D4FF"/>
+      <circle cx="96" cy="132.5" r="0.8" fill="#00D4FF"/><circle cx="102" cy="132.5" r="0.8" fill="#00D4FF"/>
+      <circle cx="108" cy="132.5" r="0.8" fill="#00D4FF"/><circle cx="114" cy="132.5" r="0.8" fill="#00D4FF"/>
+    </g>
+
+    <!-- Bridge & Tailpiece -->
+    <rect x="85" y="148" width="30" height="4" rx="1.5" fill="none" stroke="#00D4FF" stroke-width="0.8" opacity="0.7"/>
+    <rect x="88" y="155" width="24" height="3" rx="1" fill="none" stroke="#00D4FF" stroke-width="0.6" opacity="0.5"/>
+
+    <!-- Volume/Tone knobs -->
+    <circle cx="125" cy="150" r="4" fill="none" stroke="#00D4FF" stroke-width="0.6" opacity="0.4"/>
+    <circle cx="135" cy="142" r="4" fill="none" stroke="#00D4FF" stroke-width="0.6" opacity="0.4"/>
+    <circle cx="130" cy="158" r="4" fill="none" stroke="#00D4FF" stroke-width="0.6" opacity="0.4"/>
+    <circle cx="140" cy="150" r="4" fill="none" stroke="#00D4FF" stroke-width="0.6" opacity="0.4"/>
+
+    <!-- Output jack -->
+    <circle cx="148" cy="162" r="2.5" fill="none" stroke="#00D4FF" stroke-width="0.6" opacity="0.4"/>
   </g>
 
-  <!-- Strings -->
-  <g class="vibrate">
-    <line x1="97" y1="25" x2="97" y2="158" stroke="#c9d1d9" stroke-width="0.5" opacity="0.8"/>
-    <line x1="99" y1="25" x2="99" y2="158" stroke="#c9d1d9" stroke-width="0.5" opacity="0.8"/>
-    <line x1="101" y1="25" x2="101" y2="158" stroke="#c9d1d9" stroke-width="0.5" opacity="0.8"/>
-    <line x1="103" y1="25" x2="103" y2="158" stroke="#c9d1d9" stroke-width="0.5" opacity="0.8"/>
+  <!-- Strings with subtle glow -->
+  <g class="string-glow" filter="url(#glow-subtle)">
+    <line x1="96" y1="22" x2="96" y2="150" stroke="#c9d1d9" stroke-width="0.4" opacity="0.7"/>
+    <line x1="98" y1="22" x2="98" y2="150" stroke="#c9d1d9" stroke-width="0.5" opacity="0.7"/>
+    <line x1="100" y1="22" x2="100" y2="150" stroke="#c9d1d9" stroke-width="0.6" opacity="0.8"/>
+    <line x1="102" y1="22" x2="102" y2="150" stroke="#c9d1d9" stroke-width="0.5" opacity="0.7"/>
+    <line x1="104" y1="22" x2="104" y2="150" stroke="#c9d1d9" stroke-width="0.4" opacity="0.7"/>
+    <line x1="106" y1="22" x2="106" y2="150" stroke="#c9d1d9" stroke-width="0.3" opacity="0.6"/>
   </g>
 
-  <!-- Decorative code symbols -->
-  <text x="25" y="180" font-family="'Fira Code',monospace" font-size="10" fill="#00D4FF" opacity="0.3">&lt;/&gt;</text>
-  <text x="155" y="30" font-family="'Fira Code',monospace" font-size="10" fill="#00D4FF" opacity="0.3">{ }</text>
+  <!-- Decorative code symbols floating around -->
+  <text x="18" y="185" font-family="'Fira Code',monospace" font-size="9" fill="#00D4FF" opacity="0.15">&lt;/&gt;</text>
+  <text x="160" y="25" font-family="'Fira Code',monospace" font-size="9" fill="#00D4FF" opacity="0.15">{ }</text>
+  <text x="15" y="40" font-family="'Fira Code',monospace" font-size="7" fill="#00D4FF" opacity="0.1">( )</text>
+  <text x="168" y="185" font-family="'Fira Code',monospace" font-size="7" fill="#00D4FF" opacity="0.1">[ ]</text>
 </svg>

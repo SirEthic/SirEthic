@@ -1,72 +1,131 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
   <defs>
-    <radialGradient id="star" cx="50%" cy="50%" r="50%">
+    <radialGradient id="star-core" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="40%" stop-color="#00D4FF"/>
+      <stop offset="30%" stop-color="#b0eaff"/>
+      <stop offset="70%" stop-color="#00D4FF"/>
       <stop offset="100%" stop-color="#0088FF" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="star-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet1-grad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#0088FF"/>
+    </radialGradient>
+    <radialGradient id="planet2-grad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="100%" stop-color="#01579B"/>
+    </radialGradient>
+    <radialGradient id="planet3-grad" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="50%" stop-color="#90a4ae"/>
+      <stop offset="100%" stop-color="#546e7a"/>
+    </radialGradient>
+    <filter id="star-blur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="planet-glow">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <style>
+      @keyframes star-pulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
       @keyframes orbit1 {
-        from { transform: rotate(0deg) translateX(35px) rotate(0deg); }
-        to { transform: rotate(360deg) translateX(35px) rotate(-360deg); }
+        from { transform: rotate(0deg) translateX(32px) rotate(0deg); }
+        to { transform: rotate(360deg) translateX(32px) rotate(-360deg); }
       }
       @keyframes orbit2 {
-        from { transform: rotate(120deg) translateX(55px) rotate(-120deg); }
-        to { transform: rotate(480deg) translateX(55px) rotate(-480deg); }
+        from { transform: rotate(140deg) translateX(52px) rotate(-140deg); }
+        to { transform: rotate(500deg) translateX(52px) rotate(-500deg); }
       }
       @keyframes orbit3 {
-        from { transform: rotate(240deg) translateX(75px) rotate(-240deg); }
-        to { transform: rotate(600deg) translateX(75px) rotate(-600deg); }
+        from { transform: rotate(70deg) translateX(72px) rotate(-70deg); }
+        to { transform: rotate(430deg) translateX(72px) rotate(-430deg); }
       }
-      @keyframes star-pulse {
-        0%, 100% { opacity: 0.8; r: 12; }
-        50% { opacity: 1; r: 14; }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.2; }
+        50% { opacity: 0.8; }
       }
-      .planet1 { animation: orbit1 4s linear infinite; }
-      .planet2 { animation: orbit2 7s linear infinite; }
-      .planet3 { animation: orbit3 11s linear infinite; }
-      .star-glow { animation: star-pulse 3s ease-in-out infinite; }
+      .star-pulse { animation: star-pulse 3s ease-in-out infinite; }
+      .p1 { animation: orbit1 5s linear infinite; }
+      .p2 { animation: orbit2 9s linear infinite; }
+      .p3 { animation: orbit3 14s linear infinite; }
+      .tw1 { animation: twinkle 4s ease-in-out infinite; }
+      .tw2 { animation: twinkle 3s ease-in-out 1s infinite; }
+      .tw3 { animation: twinkle 5s ease-in-out 2s infinite; }
     </style>
   </defs>
 
   <!-- Background -->
   <rect width="200" height="200" fill="#0d1117" rx="12"/>
 
-  <!-- Stars (background) -->
-  <circle cx="25" cy="30" r="0.8" fill="#c9d1d9" opacity="0.4"/>
-  <circle cx="170" cy="45" r="0.6" fill="#c9d1d9" opacity="0.3"/>
-  <circle cx="40" cy="160" r="0.7" fill="#c9d1d9" opacity="0.35"/>
-  <circle cx="160" cy="170" r="0.5" fill="#c9d1d9" opacity="0.25"/>
-  <circle cx="80" cy="25" r="0.4" fill="#c9d1d9" opacity="0.3"/>
-  <circle cx="150" cy="100" r="0.6" fill="#c9d1d9" opacity="0.2"/>
-  <circle cx="30" cy="100" r="0.5" fill="#c9d1d9" opacity="0.3"/>
+  <!-- Background stars with twinkle -->
+  <circle cx="22" cy="28" r="0.7" fill="#c9d1d9" class="tw1"/>
+  <circle cx="175" cy="35" r="0.5" fill="#c9d1d9" class="tw2"/>
+  <circle cx="35" cy="170" r="0.6" fill="#c9d1d9" class="tw3"/>
+  <circle cx="165" cy="175" r="0.4" fill="#c9d1d9" class="tw1"/>
+  <circle cx="75" cy="18" r="0.5" fill="#c9d1d9" class="tw2"/>
+  <circle cx="155" cy="95" r="0.6" fill="#c9d1d9" class="tw3"/>
+  <circle cx="28" cy="95" r="0.5" fill="#c9d1d9" class="tw1"/>
+  <circle cx="50" cy="55" r="0.4" fill="#c9d1d9" class="tw2"/>
+  <circle cx="145" cy="55" r="0.3" fill="#c9d1d9" class="tw3"/>
+  <circle cx="110" cy="180" r="0.5" fill="#c9d1d9" class="tw1"/>
+  <circle cx="85" cy="185" r="0.4" fill="#c9d1d9" class="tw2"/>
+  <circle cx="185" cy="120" r="0.5" fill="#c9d1d9" class="tw3"/>
+  <circle cx="15" cy="140" r="0.4" fill="#c9d1d9" class="tw1"/>
 
-  <!-- Orbital paths -->
-  <circle cx="100" cy="100" r="35" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.2"/>
-  <circle cx="100" cy="100" r="55" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.15"/>
-  <circle cx="100" cy="100" r="75" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.1"/>
+  <!-- Orbital paths (dashed, subtle) -->
+  <circle cx="100" cy="100" r="32" fill="none" stroke="#00D4FF" stroke-width="0.4" opacity="0.15" stroke-dasharray="3 3"/>
+  <circle cx="100" cy="100" r="52" fill="none" stroke="#00D4FF" stroke-width="0.4" opacity="0.12" stroke-dasharray="3 3"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#00D4FF" stroke-width="0.4" opacity="0.09" stroke-dasharray="3 3"/>
 
-  <!-- Central star -->
-  <circle cx="100" cy="100" r="12" fill="url(#star)" class="star-glow"/>
-  <circle cx="100" cy="100" r="8" fill="#00D4FF" opacity="0.6"/>
+  <!-- Star outer glow -->
+  <circle cx="100" cy="100" r="30" fill="url(#star-glow)" class="star-pulse"/>
+  
+  <!-- Star blur layer -->
+  <circle cx="100" cy="100" r="10" fill="url(#star-core)" filter="url(#star-blur)" class="star-pulse"/>
+  
+  <!-- Star core -->
+  <circle cx="100" cy="100" r="6" fill="#ffffff" opacity="0.95"/>
+  <circle cx="100" cy="100" r="3.5" fill="#ffffff"/>
 
-  <!-- Planet 1 (small, fast - like Mercury) -->
-  <g transform-origin="100 100" class="planet1">
-    <circle cx="100" cy="100" r="3" fill="#00D4FF"/>
+  <!-- Planet 1 - small fast (Mercury-like) -->
+  <g class="p1" filter="url(#planet-glow)">
+    <circle cx="100" cy="100" r="3" fill="url(#planet1-grad)"/>
+    <circle cx="99" cy="99" r="1" fill="#ffffff" opacity="0.3"/>
   </g>
 
-  <!-- Planet 2 (medium, moderate - like Earth) -->
-  <g transform-origin="100 100" class="planet2">
-    <circle cx="100" cy="100" r="5" fill="#0088FF"/>
-    <circle cx="100" cy="100" r="7" fill="none" stroke="#0088FF" stroke-width="0.5" opacity="0.3"/>
+  <!-- Planet 2 - medium with ring (Saturn-ish) -->
+  <g class="p2" filter="url(#planet-glow)">
+    <circle cx="100" cy="100" r="5" fill="url(#planet2-grad)"/>
+    <circle cx="98.5" cy="98.5" r="2" fill="#ffffff" opacity="0.2"/>
+    <!-- Ring -->
+    <ellipse cx="100" cy="100" rx="9" ry="2.5" fill="none" stroke="#4FC3F7" stroke-width="0.6" opacity="0.5" transform="rotate(-20 100 100)"/>
   </g>
 
-  <!-- Planet 3 (large, slow - like Jupiter) -->
-  <g transform-origin="100 100" class="planet3">
-    <circle cx="100" cy="100" r="7" fill="#c9d1d9" opacity="0.8"/>
-    <circle cx="100" cy="100" r="4" fill="#00D4FF" opacity="0.3"/>
+  <!-- Planet 3 - large slow (Jupiter-like with bands) -->
+  <g class="p3" filter="url(#planet-glow)">
+    <circle cx="100" cy="100" r="7" fill="url(#planet3-grad)"/>
+    <!-- Bands -->
+    <ellipse cx="100" cy="98" rx="6" ry="1" fill="none" stroke="#78909c" stroke-width="0.5" opacity="0.4"/>
+    <ellipse cx="100" cy="101" rx="6.5" ry="1.2" fill="none" stroke="#90a4ae" stroke-width="0.4" opacity="0.3"/>
+    <ellipse cx="100" cy="103.5" rx="5.5" ry="0.8" fill="none" stroke="#78909c" stroke-width="0.4" opacity="0.3"/>
+    <!-- Spot -->
+    <ellipse cx="103" cy="100" rx="1.5" ry="1" fill="#455a64" opacity="0.5"/>
+  </g>
+
+  <!-- Tiny comet -->
+  <g opacity="0.4">
+    <circle cx="170" cy="60" r="0.8" fill="#c9d1d9"/>
+    <line x1="170" y1="60" x2="160" y2="58" stroke="#c9d1d9" stroke-width="0.3" opacity="0.5"/>
+    <line x1="170" y1="60" x2="163" y2="59" stroke="#c9d1d9" stroke-width="0.2" opacity="0.3"/>
   </g>
 
   <!-- Physics equation -->
-  <text x="100" y="190" text-anchor="middle" font-family="'Fira Code',monospace" font-size="8" fill="#00D4FF" opacity="0.3">F = GMm/r²</text>
+  <text x="100" y="192" text-anchor="middle" font-family="'Fira Code',monospace" font-size="7" fill="#00D4FF" opacity="0.25">F = GMm/r²</text>
 </svg>
