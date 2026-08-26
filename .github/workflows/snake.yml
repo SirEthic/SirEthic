@@ -1,6 +1,8 @@
 name: Generate Snake Animation
 
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
@@ -12,14 +14,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-        with:
-          ref: main
+      - uses: actions/checkout@v4
 
       - name: Generate snake
         uses: Platane/snk@v3
-        env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
         with:
           github_user_name: SirEthic
           outputs: |
@@ -27,14 +25,9 @@ jobs:
 
       - name: Deploy to output branch
         run: |
-          cp dist/github-contribution-grid-snake-dark.svg /tmp/snake.svg
-          cd /tmp
-          rm -rf snake-repo
-          mkdir snake-repo
-          cd snake-repo
+          cd dist
           git init
           git checkout -b output
-          cp /tmp/snake.svg .
           git add .
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
