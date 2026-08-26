@@ -27,10 +27,14 @@ jobs:
 
       - name: Deploy to output branch
         run: |
-          rm -rf dist/.git
-          cd dist
+          cp dist/github-contribution-grid-snake-dark.svg /tmp/snake.svg
+          cd /tmp
+          rm -rf snake-repo
+          mkdir snake-repo
+          cd snake-repo
           git init
           git checkout -b output
+          cp /tmp/snake.svg .
           git add .
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
