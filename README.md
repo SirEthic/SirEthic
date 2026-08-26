@@ -10,9 +10,13 @@ I spend most of my time inside **Godot** writing GDScript, or in **C++** making 
 
 When I'm not coding, I'm probably playing **guitar** or breaking game engines in interesting ways.
 
+<br>
+
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d1" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d1)" stroke-width="1"/></svg></p>
 
-<p align="left">
+<br>
+
+<p align="center">
 <svg viewBox="0 0 180 32" width="180" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Tech Stack</text><line x1="0" y1="28" x2="110" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
@@ -29,9 +33,13 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
   <img src="https://skillicons.dev/icons?i=git&perline=7" title="Git" width="50" />
 </p>
 
+<br>
+
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d2" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d2)" stroke-width="1"/></svg></p>
 
-<p align="left">
+<br>
+
+<p align="center">
 <svg viewBox="0 0 260 32" width="260" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Featured Projects</text><line x1="0" y1="28" x2="160" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
@@ -74,23 +82,32 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 </tr>
 </table>
 
+<br>
+
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d3" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d3)" stroke-width="1"/></svg></p>
 
-<p align="left">
+<br>
+
+<p align="center">
 <svg viewBox="0 0 120 32" width="120" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Stats</text><line x1="0" y1="28" x2="50" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirEthic&theme=radical&background=0d1117&hide_border=true&ring=00D4FF&fire=00D4FF&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00D4FF&sideLabels=c9d1d9" alt="streak stats" />
 </p>
+
 <p align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=SirEthic&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF&text_color=c9d1d9" alt="github stats" />
   <img src="https://github-stats-extended.vercel.app/api/top-langs?username=SirEthic&hide=html,css&title_color=00D4FF&text_color=c9d1d9&bg_color=0d1117&hide_border=true&layout=compact" alt="top languages" />
 </p>
 
+<br>
+
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d4" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d4)" stroke-width="1"/></svg></p>
 
-<p align="left">
+<br>
+
+<p align="center">
 <svg viewBox="0 0 260 32" width="260" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Contribution Snake</text><line x1="0" y1="28" x2="160" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
@@ -98,9 +115,13 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
   <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="600" />
 </p>
 
+<br>
+
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d5" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d5)" stroke-width="1"/></svg></p>
 
-<p align="left">
+<br>
+
+<p align="center">
 <svg viewBox="0 0 160 32" width="160" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Connect</text><line x1="0" y1="28" x2="80" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
@@ -115,6 +136,8 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
+
+<br>
 
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d6" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d6)" stroke-width="1"/></svg></p>
 
