@@ -70,12 +70,6 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SirEthic&show_icons=true&theme=radical&bg_color=0d1117&hide_border=true&title_color=00D4FF&icon_color=00D4FF&text_color=c9d1d9&ring_color=00D4FF" alt="github stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SirEthic&layout=compact&theme=radical&bg_color=0d1117&hide_border=true&title_color=00D4FF&text_color=c9d1d9&langs_count=6" alt="top languages" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirEthic&theme=radical&background=0d1117&hide_border=true&ring=00D4FF&fire=00D4FF&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00D4FF&sideLabels=c9d1d9" alt="streak stats" />
 </p>
 
@@ -97,10 +91,6 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
   <a href="https://github.com/SirEthic">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SirEthic&style=for-the-badge&color=00D4FF&label=PROFILE+VIEWS" alt="profile views" />
 </p>
 
 ---
