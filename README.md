@@ -125,7 +125,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 <br>
 
 <p align="center">
-<svg viewBox="0 0 160 32" width="160" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Now Playing</text><line x="0" y="28" x2="110" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
+<svg viewBox="0 0 200 32" width="200" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Recently Played</text><line x="0" y="28" x2="165" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
 <p align="center">
