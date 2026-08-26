@@ -83,6 +83,10 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirEthic&theme=radical&background=0d1117&hide_border=true&ring=00D4FF&fire=00D4FF&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00D4FF&sideLabels=c9d1d9" alt="streak stats" />
 </p>
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=SirEthic&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00D4FF&icon_color=00D4FF&text_color=c9d1d9" alt="github stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=SirEthic&hide=html,css&title_color=00D4FF&text_color=c9d1d9&bg_color=0d1117&hide_border=true&layout=compact" alt="top languages" />
+</p>
 
 <p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d4" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d4)" stroke-width="1"/></svg></p>
 
