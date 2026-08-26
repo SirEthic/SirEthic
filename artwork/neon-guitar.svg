@@ -4,103 +4,107 @@
       <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="soft-glow">
-      <feGaussianBlur stdDeviation="0.8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
     <style>
-      @keyframes string-shimmer {
-        0%, 100% { opacity: 0.4; }
-        50% { opacity: 0.8; }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
       }
-      .shimmer { animation: string-shimmer 3s ease-in-out infinite; }
+      .animated-neon {
+        animation: float 4s ease-in-out infinite;
+        transform-origin: center;
+      }
     </style>
   </defs>
 
   <rect width="200" height="200" fill="#0d1117" rx="12"/>
 
-  <!-- Stratocaster body - double cutaway, asymmetric horns -->
-  <g filter="url(#glow)">
-    <path d="M68,72 
-             C64,70 58,68 52,70 
-             C44,72 38,78 34,88 
-             C30,98 28,108 30,118 
-             C32,128 36,138 44,146 
-             C52,154 62,160 74,164 
-             C86,168 96,170 106,170 
-             C116,170 126,168 136,162 
-             C146,156 154,148 158,138 
-             C162,128 164,118 162,108 
-             C160,98 156,90 148,84 
-             C142,80 136,78 128,78 
-             L120,82 
-             C116,84 114,88 114,94 
-             L114,98 
-             C114,98 112,96 108,94 
-             L96,88 
-             C90,86 84,82 80,78 
-             L68,72 Z" 
-          fill="none" stroke="#00D4FF" stroke-width="1.5" stroke-linejoin="round"/>
+  <g class="animated-neon" filter="url(#glow)" fill="none" stroke="#00D4FF" stroke-width="1.5" stroke-linejoin="round">
+    <!-- Outer Body -->
+    <path d="M 92,110
+             C 80,110 65,80 60,70
+             C 65,80 75,110 65,125
+             C 50,130 35,150 45,170
+             C 55,190 85,195 100,195
+             C 115,195 145,190 155,170
+             C 165,150 150,130 135,125
+             C 125,110 135,80 140,75
+             C 135,85 120,110 108,110
+             Z" />
+             
+    <!-- Inner Body -->
+    <path d="M 92,116
+             C 84,116 72,90 68,82
+             C 72,92 80,115 72,127
+             C 59,132 46,150 54,166
+             C 62,182 88,187 100,187
+             C 112,187 138,182 146,166
+             C 154,150 141,132 128,127
+             C 120,115 128,92 132,86
+             C 128,90 116,116 108,116
+             Z" stroke-width="1.0" />
+
+    <!-- Neck Outline -->
+    <rect x="92" y="30" width="16" height="80" />
+
+    <!-- Frets -->
+    <path d="M 92,35 L 108,35 M 92,42 L 108,42 M 92,49 L 108,49 M 92,56 L 108,56 M 92,63 L 108,63 M 92,70 L 108,70 M 92,77 L 108,77 M 92,84 L 108,84 M 92,91 L 108,91 M 92,98 L 108,98 M 92,105 L 108,105" stroke-width="1.0" />
+
+    <!-- Headstock -->
+    <path d="M 92,30 
+             L 86,18
+             C 84,14 85,10 88,8
+             L 108,12
+             C 106,18 108,25 108,30 Z" />
+
+    <!-- Pickups -->
+    <rect x="85" y="120" width="30" height="12" rx="2" />
+    <rect x="85" y="140" width="30" height="12" rx="2" />
+    
+    <!-- Bridge -->
+    <rect x="83" y="160" width="34" height="10" rx="2" />
+    
+    <!-- Knobs (Outer Circles) -->
+    <circle cx="130" cy="145" r="5" />
+    <circle cx="140" cy="160" r="5" />
+    <circle cx="130" cy="175" r="5" />
   </g>
 
-  <!-- Neck -->
-  <g filter="url(#soft-glow)">
-    <rect x="93" y="18" width="10" height="62" rx="1" fill="none" stroke="#00D4FF" stroke-width="1.2"/>
+  <!-- Dots and Fills (Also glowing) -->
+  <g class="animated-neon" filter="url(#glow)" fill="#00D4FF">
+    <!-- Pickup 1 Dots -->
+    <circle cx="89" cy="126" r="1.5" />
+    <circle cx="94.5" cy="126" r="1.5" />
+    <circle cx="100" cy="126" r="1.5" />
+    <circle cx="105.5" cy="126" r="1.5" />
+    <circle cx="111" cy="126" r="1.5" />
+    
+    <!-- Pickup 2 Dots -->
+    <circle cx="89" cy="146" r="1.5" />
+    <circle cx="94.5" cy="146" r="1.5" />
+    <circle cx="100" cy="146" r="1.5" />
+    <circle cx="105.5" cy="146" r="1.5" />
+    <circle cx="111" cy="146" r="1.5" />
+
+    <!-- Bridge Dots -->
+    <circle cx="87.5" cy="165" r="1.5" />
+    <circle cx="92.5" cy="165" r="1.5" />
+    <circle cx="97.5" cy="165" r="1.5" />
+    <circle cx="102.5" cy="165" r="1.5" />
+    <circle cx="107.5" cy="165" r="1.5" />
+    <circle cx="112.5" cy="165" r="1.5" />
+
+    <!-- Knob Center Dots -->
+    <circle cx="130" cy="145" r="1.5" />
+    <circle cx="140" cy="160" r="1.5" />
+    <circle cx="130" cy="175" r="1.5" />
+
+    <!-- Tuning Pegs -->
+    <circle cx="83" cy="28" r="1.5" />
+    <circle cx="81.5" cy="24" r="1.5" />
+    <circle cx="80" cy="20" r="1.5" />
+    <circle cx="80.5" cy="16" r="1.5" />
+    <circle cx="83" cy="12" r="1.5" />
+    <circle cx="85.5" cy="8" r="1.5" />
   </g>
 
-  <!-- Headstock - Strat style with 6 inline pegs -->
-  <path d="M91,18 L88,8 C88,4 90,2 94,2 L106,2 C110,2 112,4 112,8 L109,18" 
-        fill="none" stroke="#00D4FF" stroke-width="1.2"/>
-  
-  <!-- Tuning pegs (6 inline) -->
-  <g filter="url(#soft-glow)">
-    <circle cx="86" cy="6" r="2" fill="none" stroke="#c9d1d9" stroke-width="0.7"/>
-    <circle cx="86" cy="11" r="2" fill="none" stroke="#c9d1d9" stroke-width="0.7"/>
-    <circle cx="86" cy="16" r="2" fill="none" stroke="#c9d1d9" stroke-width="0.7"/>
-    <circle cx="84" cy="6" r="1" fill="#c9d1d9" opacity="0.4"/>
-    <circle cx="84" cy="11" r="1" fill="#c9d1d9" opacity="0.4"/>
-    <circle cx="84" cy="16" r="1" fill="#c9d1d9" opacity="0.4"/>
-  </g>
-
-  <!-- Nut -->
-  <line x1="93" y1="18" x2="103" y2="18" stroke="#c9d1d9" stroke-width="1"/>
-
-  <!-- Fret markers -->
-  <g opacity="0.4">
-    <circle cx="98" cy="28" r="1" fill="#00D4FF"/>
-    <circle cx="98" cy="40" r="1" fill="#00D4FF"/>
-    <circle cx="98" cy="52" r="1" fill="#00D4FF"/>
-    <circle cx="98" cy="64" r="1" fill="#00D4FF"/>
-  </g>
-
-  <!-- Pickups (3 single coils - Strat style) -->
-  <g opacity="0.5">
-    <rect x="78" y="105" width="36" height="3" rx="1.5" fill="none" stroke="#00D4FF" stroke-width="0.6"/>
-    <rect x="78" y="118" width="36" height="3" rx="1.5" fill="none" stroke="#00D4FF" stroke-width="0.6"/>
-    <rect x="78" y="131" width="36" height="3" rx="1.5" fill="none" stroke="#00D4FF" stroke-width="0.6"/>
-  </g>
-
-  <!-- Pickup selector -->
-  <circle cx="140" cy="120" r="2" fill="none" stroke="#c9d1d9" stroke-width="0.5" opacity="0.3"/>
-
-  <!-- Bridge -->
-  <rect x="82" y="142" width="28" height="4" rx="1" fill="none" stroke="#00D4FF" stroke-width="0.7" opacity="0.5"/>
-
-  <!-- Volume/Tone knobs -->
-  <circle cx="130" cy="135" r="4" fill="none" stroke="#c9d1d9" stroke-width="0.5" opacity="0.3"/>
-  <circle cx="130" cy="148" r="4" fill="none" stroke="#c9d1d9" stroke-width="0.5" opacity="0.3"/>
-  <circle cx="130" cy="161" r="4" fill="none" stroke="#c9d1d9" stroke-width="0.5" opacity="0.3"/>
-
-  <!-- Strings -->
-  <g class="shimmer" filter="url(#soft-glow)">
-    <line x1="94" y1="20" x2="94" y2="146" stroke="#c9d1d9" stroke-width="0.3"/>
-    <line x1="96" y1="20" x2="96" y2="146" stroke="#c9d1d9" stroke-width="0.35"/>
-    <line x1="98" y1="20" x2="98" y2="146" stroke="#c9d1d9" stroke-width="0.4"/>
-    <line x1="100" y1="20" x2="100" y2="146" stroke="#c9d1d9" stroke-width="0.45"/>
-    <line x1="102" y1="20" x2="102" y2="146" stroke="#c9d1d9" stroke-width="0.35"/>
-    <line x1="104" y1="20" x2="104" y2="146" stroke="#c9d1d9" stroke-width="0.3"/>
-  </g>
-
-  <!-- Output jack -->
-  <circle cx="156" cy="158" r="2.5" fill="none" stroke="#c9d1d9" stroke-width="0.5" opacity="0.3"/>
 </svg>
