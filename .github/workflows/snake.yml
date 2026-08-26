@@ -16,7 +16,10 @@ jobs:
         with:
           ref: main
 
-      - uses: Platane/snk@v3
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
         with:
           github_user_name: SirEthic
           outputs: |
