@@ -4,11 +4,13 @@
 
 ### Hi there! 👋
 
-I'm **Vidhan** — I build games, physics engines, and things that move.
+I'm <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 42" width="320" height="42"><defs><linearGradient id="n" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00D4FF"><animate attributeName="stop-color" values="#00D4FF;#0088FF;#00D4FF" dur="4s" repeatCount="indefinite"/></stop><stop offset="100%" stop-color="#0088FF"><animate attributeName="stop-color" values="#0088FF;#00D4FF;#0088FF" dur="4s" repeatCount="indefinite"/></stop></linearGradient></defs><text x="0" y="32" fill="url(#n)" font-family="'Fira Code',monospace" font-size="32" font-weight="700">Vidhan</text></svg> — I build games, physics engines, and things that move.
 
 I spend most of my time inside **Godot** writing GDScript, or in **C++** making OpenGL do things it was never meant to. Currently learning **3D modeling** so I can finally make my own assets instead of using placeholders.
 
 When I'm not coding, I'm probably playing **guitar** or breaking game engines in interesting ways.
+
+<p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d1" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d1)" stroke-width="1"/></svg></p>
 
 ### 🛠️ Tech Stack
 
@@ -24,6 +26,8 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
   <img src="https://skillicons.dev/icons?i=linux&perline=7" title="Linux" width="50" />
   <img src="https://skillicons.dev/icons?i=git&perline=7" title="Git" width="50" />
 </p>
+
+<p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d2" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d2)" stroke-width="1"/></svg></p>
 
 ### 🔥 Featured Projects
 
@@ -66,17 +70,23 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 </tr>
 </table>
 
+<p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d3" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d3)" stroke-width="1"/></svg></p>
+
 ### 📊 Stats
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SirEthic&theme=radical&background=0d1117&hide_border=true&ring=00D4FF&fire=00D4FF&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00D4FF&sideLabels=c9d1d9" alt="streak stats" />
 </p>
 
+<p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d4" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d4)" stroke-width="1"/></svg></p>
+
 ### 🐍 Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="600" />
 </p>
+
+<p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d5" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d5)" stroke-width="1"/></svg></p>
 
 ### 🌐 Connect
 
@@ -92,7 +102,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
   </a>
 </p>
 
----
+<p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d6" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d6)" stroke-width="1"/></svg></p>
 
 <p align="center">
   <i>Thanks for visiting — now go build something that compiles.</i>
