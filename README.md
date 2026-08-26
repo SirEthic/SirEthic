@@ -33,7 +33,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=gdscript,godot,cpp,c,dart,flutter,js,python,linux,git&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=godot,cpp,c,dart,flutter,js,python,linux,git&theme=dark" />
 </p>
 
 <br>
