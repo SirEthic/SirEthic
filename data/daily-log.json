@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "snapshots": [
+    {
+      "journeyId": "road-to-mordor-2026",
+      "date": "2026-08-26",
+      "awardedXP": 1510,
+      "calculatedXP": 1510,
+      "progressPercent": 3,
+      "locationId": "shire",
+      "titleId": "wanderer",
+      "achievementIds": [
+        "xp-1000",
+        "hundred-commits"
+      ],
+      "activityComplete": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="psrpg-title psrpg-desc">
+<title id="psrpg-title">Middle-earth Journey for SirEthic</title>
+<desc id="psrpg-desc">Middle-earth journey for SirEthic. Currently at The Shire; next destination Bree. 1,510 of 50,000 XP, 3 percent complete. Journey started 2025-08-26; last successful update 2026-08-26. 2 achievements unlocked. Activity data is incomplete. GitHub does not expose complete public release-author totals for a user.</desc>
+<rect width="495" height="195" rx="12" fill="#F7F0D8"/>
+<rect x="1" y="1" width="493" height="193" rx="11" fill="none" stroke="#6B5B45" stroke-opacity="0.35"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="18" y="28" fill="#242018" font-size="17" font-weight="800">SirEthic</text>
+<text x="18" y="46" fill="#6B5B45" font-size="11">Wanderer</text>
+<g transform="translate(0 14)">
+<text x="18" y="50" fill="#242018" font-size="10"><tspan font-weight="700">Repositories</tspan><tspan x="174" text-anchor="end" fill="#6B5B45">8</tspan><tspan x="278" text-anchor="end" fill="#2F6F4E" font-weight="800">+800 XP</tspan></text>
+<text x="18" y="67" fill="#242018" font-size="10"><tspan font-weight="700">Commits</tspan><tspan x="174" text-anchor="end" fill="#6B5B45">255</tspan><tspan x="278" text-anchor="end" fill="#2F6F4E" font-weight="800">+510 XP</tspan></text>
+<text x="18" y="84" fill="#242018" font-size="10"><tspan font-weight="700">Streaks</tspan><tspan x="174" text-anchor="end" fill="#6B5B45">1</tspan><tspan x="278" text-anchor="end" fill="#2F6F4E" font-weight="800">+200 XP</tspan></text>
+</g>
+<g transform="translate(420 84)">
+<circle cx="0" cy="0" r="39" fill="none" stroke="#6B5B45" stroke-width="8" opacity="0.2"/>
+<circle cx="0" cy="0" r="39" fill="none" stroke="#2F6F4E" stroke-width="8" stroke-linecap="round" stroke-dasharray="7.35 237.69" transform="rotate(-90)"/>
+<text x="0" y="5" text-anchor="middle" fill="#242018" font-size="17" font-weight="800">3%</text>
+<text x="0" y="22" text-anchor="middle" fill="#6B5B45" font-size="10">1.5k/50k XP</text>
+</g>
+<text x="420" y="143" text-anchor="middle" fill="#6B5B45" font-size="10">2 achievements</text>
+<line x1="18" y1="153" x2="477" y2="153" stroke="#6B5B45" opacity="0.25"/>
+<text x="18" y="171" fill="#6B5B45" font-size="10">AT</text>
+<text x="38" y="171" fill="#242018" font-size="11" font-weight="700">The Shire</text>
+<text x="245" y="171" fill="#6B5B45" font-size="10">NEXT</text>
+<text x="477" y="171" text-anchor="end" fill="#242018" font-size="11" font-weight="700">Bree</text>
+<text x="18" y="188" fill="#6B5B45" font-size="10">Started 2025-08-26</text>
+<text x="477" y="188" text-anchor="end" fill="#6B5B45" font-size="10">Updated 2026-08-26</text>
+<g aria-label="Activity data incomplete"><circle cx="336" cy="14" r="6" fill="none" stroke="#C88A2D" stroke-width="2"/><text x="336" y="17" text-anchor="middle" fill="#C88A2D" font-size="10" font-weight="800">!</text><text x="348" y="18" fill="#6B5B45" font-size="11">Activity data incomplete</text></g>
+</g>
+</svg>

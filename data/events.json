@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "events": [
+    {
+      "id": "road-to-mordor-2026:JOURNEY_STARTED:road-to-mordor-2026",
+      "journeyId": "road-to-mordor-2026",
+      "occurredAt": "2026-08-26T13:02:07.251Z",
+      "type": "JOURNEY_STARTED",
+      "value": "road-to-mordor-2026"
+    },
+    {
+      "id": "road-to-mordor-2026:LOCATION_UNLOCKED:shire",
+      "journeyId": "road-to-mordor-2026",
+      "occurredAt": "2026-08-26T13:02:07.251Z",
+      "type": "LOCATION_UNLOCKED",
+      "value": "shire"
+    },
+    {
+      "id": "road-to-mordor-2026:TITLE_UNLOCKED:hobbit",
+      "journeyId": "road-to-mordor-2026",
+      "occurredAt": "2026-08-26T13:02:07.251Z",
+      "type": "TITLE_UNLOCKED",
+      "value": "hobbit"
+    },
+    {
+      "id": "road-to-mordor-2026:TITLE_UNLOCKED:wanderer",
+      "journeyId": "road-to-mordor-2026",
+      "occurredAt": "2026-08-26T13:02:07.251Z",
+      "type": "TITLE_UNLOCKED",
+      "value": "wanderer"
+    },
+    {
+      "id": "road-to-mordor-2026:ACHIEVEMENT_UNLOCKED:hundred-commits",
+      "journeyId": "road-to-mordor-2026",
+      "occurredAt": "2026-08-26T13:02:07.251Z",
+      "type": "ACHIEVEMENT_UNLOCKED",
+      "value": "hundred-commits"
+    },
+    {
+      "id": "road-to-mordor-2026:ACHIEVEMENT_UNLOCKED:xp-1000",
+      "journeyId": "road-to-mordor-2026",
+      "occurredAt": "2026-08-26T13:02:07.251Z",
+      "type": "ACHIEVEMENT_UNLOCKED",
+      "value": "xp-1000"
+    }
+  ]
+}
