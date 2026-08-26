@@ -129,7 +129,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 </p>
 
 <p align="center">
-  <a href="https://www.last.fm/user/SirEthic">
+  <a href="https://music.youtube.com/">
     <img src="https://lastfm-recently-played.jeffreyca.workers.dev/svg?user=SirEthic&logo=0&bg_color=0d1117&text_color=c9d1d9&artist_color=0088FF&accent_color=00D4FF" alt="Last.fm Recently Played" />
   </a>
 </p>
