@@ -125,6 +125,22 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 <br>
 
 <p align="center">
+<svg viewBox="0 0 160 32" width="160" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Now Playing</text><line x="0" y="28" x2="110" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
+</p>
+
+<p align="center">
+  <a href="https://www.last.fm/user/SirEthic">
+    <img src="https://lastfm-recently-played.jeffreyca.workers.dev/svg?user=SirEthic&logo=0&bg_color=0d1117&text_color=c9d1d9&artist_color=0088FF&accent_color=00D4FF" alt="Last.fm Recently Played" />
+  </a>
+</p>
+
+<br>
+
+<p align="center"><svg viewBox="0 0 500 4" width="500" height="4" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="d7" x1="0%" x2="100%"><stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/><stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/><stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/></linearGradient></defs><line x1="0" y1="2" x2="500" y2="2" stroke="url(#d7)" stroke-width="1"/></svg></p>
+
+<br>
+
+<p align="center">
 <svg viewBox="0 0 160 32" width="160" height="32" xmlns="http://www.w3.org/2000/svg"><text x="0" y="20" fill="#c9d1d9" font-family="'Fira Code',monospace" font-size="18" font-weight="600">Connect</text><line x1="0" y1="28" x2="80" y2="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/></svg>
 </p>
 
