@@ -22,7 +22,7 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/main/artwork/game-controller.png?v=5" alt="Game Controller" width="160" />
-  <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/main/artwork/neon-guitar.png?v=5" alt="Neon Guitar" width="160" />
+  <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/main/artwork/neon-guitar.png?v=6" alt="Neon Guitar" width="160" />
   <img src="https://raw.githubusercontent.com/SirEthic/SirEthic/main/artwork/orbital-scene.svg" alt="Orbital Physics" width="160" />
 </p>
 
