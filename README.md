@@ -33,16 +33,9 @@ When I'm not coding, I'm probably playing **guitar** or breaking game engines in
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=gdscript&perline=7" title="GDScript" width="50" />
-  <img src="https://skillicons.dev/icons?i=godot&perline=7" title="Godot Engine" width="50" />
-  <img src="https://skillicons.dev/icons?i=cpp&perline=7" title="C++" width="50" />
-  <img src="https://skillicons.dev/icons?i=c&perline=7" title="C" width="50" />
-  <img src="https://skillicons.dev/icons?i=dart&perline=7" title="Dart" width="50" />
-  <img src="https://skillicons.dev/icons?i=flutter&perline=7" title="Flutter" width="50" />
-  <img src="https://skillicons.dev/icons?i=js&perline=7" title="JavaScript" width="50" />
-  <img src="https://skillicons.dev/icons?i=python&perline=7" title="Python" width="50" />
-  <img src="https://skillicons.dev/icons?i=linux&perline=7" title="Linux" width="50" />
-  <img src="https://skillicons.dev/icons?i=git&perline=7" title="Git" width="50" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=gdscript,godot,cpp,c,dart,flutter,js,python,linux,git&perline=5" />
+  </a>
 </p>
 
 <br>
